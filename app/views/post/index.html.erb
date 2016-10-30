@@ -1,0 +1,11 @@
+<h1>Post#index</h1>
+
+<%= form_for :post, remote: true do |f| %>
+  <p><%= f.label :post_text %></p>
+  <p><%= f.text_field :post_text %></p>
+  <p><%= f.submit %></p>
+<% end %>
+
+<div id=post_list>
+  <%= render 'list' %>
+</div>

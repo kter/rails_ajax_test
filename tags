@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c	language:Ruby
+AjaxFormController	app/controllers/ajax_form_controller.rb	/^class AjaxFormController < ApplicationController$/;"	c	language:Ruby
+AjaxTest	config/application.rb	/^module AjaxTest$/;"	m	language:Ruby
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	language:Ruby	class:AjaxTest
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c	language:Ruby
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m	language:Ruby
+CreatePosts	db/migrate/20161030035506_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration$/;"	c	language:Ruby
+HelloWorldController	app/controllers/hello_world_controller.rb	/^class HelloWorldController < ApplicationController$/;"	c	language:Ruby
+HelloWorldControllerTest	test/controllers/hello_world_controller_test.rb	/^class HelloWorldControllerTest < ActionController::TestCase$/;"	c	language:Ruby
+HelloWorldHelper	app/helpers/hello_world_helper.rb	/^module HelloWorldHelper$/;"	m	language:Ruby
+Post	app/models/post.rb	/^class Post < ActiveRecord::Base$/;"	c	language:Ruby
+PostController	app/controllers/post_controller.rb	/^class PostController < ApplicationController$/;"	c	language:Ruby
+PostControllerTest	test/controllers/post_controller_test.rb	/^class PostControllerTest < ActionController::TestCase$/;"	c	language:Ruby
+PostHelper	app/helpers/post_helper.rb	/^module PostHelper$/;"	m	language:Ruby
+PostTest	test/models/post_test.rb	/^class PostTest < ActiveSupport::TestCase$/;"	c	language:Ruby
+change	db/migrate/20161030035506_create_posts.rb	/^  def change$/;"	f	language:Ruby	class:CreatePosts
+create	app/controllers/post_controller.rb	/^  def create$/;"	f	language:Ruby	class:PostController
+index	app/controllers/ajax_form_controller.rb	/^  def index$/;"	f	language:Ruby	class:AjaxFormController
+index	app/controllers/hello_world_controller.rb	/^  def index$/;"	f	language:Ruby	class:HelloWorldController
+index	app/controllers/post_controller.rb	/^  def index$/;"	f	language:Ruby	class:PostController
+post_params	app/controllers/post_controller.rb	/^    def post_params$/;"	f	language:Ruby	class:PostController
